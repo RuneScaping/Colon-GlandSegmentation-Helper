@@ -22,3 +22,11 @@ def create_train_data():
     print('-'*30)
     print('Creating training images...')
     print('-'*30)
+    for image_name in images:
+        if 'anno' in image_name:
+            continue
+        image_mask_name = image_name.split('.')[0] + '_anno.bmp'
+        img = cv2.imread(os.path.join(train_data_path, image_name), cv2.IMREAD_GRAYSCALE)
+        img = cv2.resize(img, (image_cols, image_rows))
+        img_mask = cv2.imread(os.path.join(train_data_path, image_mask_name), cv2.IMREAD_GRAYSCALE)
+        img_mask = cv2.resize(img_mask, (image_cols, image_rows))
