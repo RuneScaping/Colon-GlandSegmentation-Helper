@@ -30,3 +30,13 @@ def create_train_data():
         img = cv2.resize(img, (image_cols, image_rows))
         img_mask = cv2.imread(os.path.join(train_data_path, image_mask_name), cv2.IMREAD_GRAYSCALE)
         img_mask = cv2.resize(img_mask, (image_cols, image_rows))
+
+        img = np.array([img])
+        img_mask = np.array([img_mask])
+
+        imgs[i] = img
+        img_mask[img_mask != 0] = 255.0
+        imgs_mask[i] = img_mask
+
+        if i % 100 == 0:
+            print('Done: {0}/{1} images'.format(i, total))
