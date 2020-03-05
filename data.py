@@ -40,3 +40,13 @@ def create_train_data():
 
         if i % 100 == 0:
             print('Done: {0}/{1} images'.format(i, total))
+        i += 1
+    print('Loading done.')
+
+    np.save('imgs_train.npy', imgs)
+    np.save('imgs_mask_train.npy', imgs_mask)
+    print('Saving to .npy files done.')
+
+
+def load_train_data():
+    imgs_train = np.load('imgs_train.npy')
