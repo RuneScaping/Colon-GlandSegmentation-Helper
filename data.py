@@ -72,3 +72,10 @@ def create_test_data():
         img = cv2.resize(img, (image_cols, image_rows))
         
         img = np.array([img])
+
+        imgs[i] = img
+
+        if i % 100 == 0:
+            print('Done: {0}/{1} images'.format(i, total))
+        i += 1
+    print('Loading done.')
