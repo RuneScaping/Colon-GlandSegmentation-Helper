@@ -66,3 +66,9 @@ def create_test_data():
     print('Creating test images...')
     print('-'*30)
     for image_name in images:
+        if 'anno' in image_name:
+            continue
+        img = cv2.imread(os.path.join(train_data_path, image_name), cv2.IMREAD_GRAYSCALE)
+        img = cv2.resize(img, (image_cols, image_rows))
+        
+        img = np.array([img])
