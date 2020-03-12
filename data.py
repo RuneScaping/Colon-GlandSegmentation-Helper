@@ -79,3 +79,11 @@ def create_test_data():
             print('Done: {0}/{1} images'.format(i, total))
         i += 1
     print('Loading done.')
+
+    np.save('imgs_test.npy', imgs)
+    print('Saving to .npy files done.')
+
+
+def load_test_data():
+    imgs_test = np.load('imgs_test.npy')
+    return imgs_test
