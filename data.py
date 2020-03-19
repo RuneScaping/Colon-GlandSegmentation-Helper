@@ -87,3 +87,7 @@ def create_test_data():
 def load_test_data():
     imgs_test = np.load('imgs_test.npy')
     return imgs_test
+
+if __name__ == '__main__':
+    create_train_data()
+    create_test_data()
