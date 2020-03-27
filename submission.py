@@ -12,3 +12,11 @@ def prep(img):
 
 
 def run_length_enc(label):
+    from itertools import chain
+    x = label.transpose().flatten()
+    y = np.where(x > 0)[0]
+    if len(y) < 10:  # consider as empty
+        return ''
+    z = np.where(np.diff(y) > 1)[0]
+    start = np.insert(y[z+1], 0, y[0])
+    end = np.append(y[z], y[-1])
