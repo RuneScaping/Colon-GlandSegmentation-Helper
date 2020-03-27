@@ -20,3 +20,13 @@ def run_length_enc(label):
     z = np.where(np.diff(y) > 1)[0]
     start = np.insert(y[z+1], 0, y[0])
     end = np.append(y[z], y[-1])
+    length = end - start
+    res = [[s+1, l+1] for s, l in zip(list(start), list(length))]
+    res = list(chain.from_iterable(res))
+    return ' '.join([str(r) for r in res])
+
+
+def submission():
+    from data import load_test_data
+    imgs_test, imgs_id_test = load_test_data()
+    imgs_test = np.load('imgs_mask_test.npy')
