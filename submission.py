@@ -48,3 +48,13 @@ def submission():
 
         if i % 100 == 0:
             print('{}/{}'.format(i, total))
+
+    first_row = 'img,pixels'
+    file_name = 'submission.csv'
+
+    with open(file_name, 'w+') as f:
+        f.write(first_row + '\n')
+        for i in range(total):
+            s = str(ids[i]) + ',' + rles[i]
+            f.write(s + '\n')
+
