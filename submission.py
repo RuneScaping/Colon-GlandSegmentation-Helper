@@ -41,3 +41,10 @@ def submission():
     for i in range(total):
         img = imgs_test[i, 0]
         img = prep(img)
+        rle = run_length_enc(img)
+
+        rles.append(rle)
+        ids.append(imgs_id_test[i])
+
+        if i % 100 == 0:
+            print('{}/{}'.format(i, total))
