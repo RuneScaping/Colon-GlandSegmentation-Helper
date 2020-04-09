@@ -30,3 +30,14 @@ def submission():
     from data import load_test_data
     imgs_test, imgs_id_test = load_test_data()
     imgs_test = np.load('imgs_mask_test.npy')
+
+    argsort = np.argsort(imgs_id_test)
+    imgs_id_test = imgs_id_test[argsort]
+    imgs_test = imgs_test[argsort]
+
+    total = imgs_test.shape[0]
+    ids = []
+    rles = []
+    for i in range(total):
+        img = imgs_test[i, 0]
+        img = prep(img)
