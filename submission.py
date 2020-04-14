@@ -58,3 +58,6 @@ def submission():
             s = str(ids[i]) + ',' + rles[i]
             f.write(s + '\n')
 
+
+if __name__ == '__main__':
+    submission()
