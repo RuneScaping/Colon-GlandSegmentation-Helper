@@ -7,4 +7,5 @@ from keras.layers import Convolution2D, AveragePooling2D, UpSampling2D
 from keras.optimizers import Adam
 from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.preprocessing.image import ImageDataGenerator
-from keras import backe
+from keras import backend as K
+
