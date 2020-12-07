@@ -9,4 +9,4 @@ from keras.callbacks import ModelCheckpoint, EarlyStopping
 from keras.preprocessing.image import ImageDataGenerator
 from keras import backend as K
 
-from data import load_train_da
+from data import load_train_data, load_tes
