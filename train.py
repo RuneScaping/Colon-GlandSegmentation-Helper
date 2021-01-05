@@ -14,4 +14,5 @@ from data import load_train_data, load_test_data
 K.set_image_dim_ordering('th')  # Theano dimension ordering in this code
 
 img_rows = 100
-img_cols = 
+img_cols = 160
+sta
