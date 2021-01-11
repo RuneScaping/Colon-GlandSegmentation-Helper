@@ -17,4 +17,7 @@ img_rows = 100
 img_cols = 160
 stack = 10
 
-smooth = 1
+smooth = 1.
+
+
+def
