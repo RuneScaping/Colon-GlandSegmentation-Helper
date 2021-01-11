@@ -20,4 +20,4 @@ stack = 10
 smooth = 1.
 
 
-def dice_co
+def dice_coef(y_true
