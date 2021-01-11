@@ -20,4 +20,4 @@ stack = 10
 smooth = 1.
 
 
-def
+def dice_co
