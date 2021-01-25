@@ -23,4 +23,4 @@ smooth = 1.
 def dice_coef(y_true, y_pred):
     y_true_f = K.flatten(y_true)
     y_pred_f = K.flatten(y_pred)
-    inters
+    intersection =
