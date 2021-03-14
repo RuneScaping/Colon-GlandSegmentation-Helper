@@ -32,4 +32,4 @@ def dice_coef_loss(y_true, y_pred):
 
 
 def create_model():
-    input = Input(sh
+    input = Input(shape=(1, img
