@@ -34,4 +34,5 @@ def dice_coef_loss(y_true, y_pred):
 def create_model():
     input = Input(shape=(1, img_rows, img_cols))
     
-    conv1 = Convolution2D(32, 3, 3, border_mode='same', init='he_normal')(
+    conv1 = Convolution2D(32, 3, 3, border_mode='same', init='he_normal')(input)
+    
