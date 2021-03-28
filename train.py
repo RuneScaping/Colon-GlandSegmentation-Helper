@@ -35,4 +35,5 @@ def create_model():
     input = Input(shape=(1, img_rows, img_cols))
     
     conv1 = Convolution2D(32, 3, 3, border_mode='same', init='he_normal')(input)
-    conv1 = LeakyReLU()(con
+    conv1 = LeakyReLU()(conv1)
+    c
