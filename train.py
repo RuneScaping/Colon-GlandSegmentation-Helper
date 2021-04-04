@@ -36,4 +36,4 @@ def create_model():
     
     conv1 = Convolution2D(32, 3, 3, border_mode='same', init='he_normal')(input)
     conv1 = LeakyReLU()(conv1)
-    c
+    conv1 
