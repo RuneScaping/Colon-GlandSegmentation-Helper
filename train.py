@@ -43,4 +43,4 @@ def create_model():
     pool1 = AveragePooling2D(pool_size=(2,2))(conv1)
     
     conv2 = Convolution2D(64, 3, 3, border_mode='same', init='he_normal')(pool1)
-    con
+    conv2 = Le
