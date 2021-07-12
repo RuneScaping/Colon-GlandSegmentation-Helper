@@ -50,4 +50,4 @@ def create_model():
     conv2 = SpatialDropout2D(0.2)(conv2)
     pool2 = AveragePooling2D(pool_size=(2,2))(conv2)
     
-    conv3
+    conv3 = Convo
