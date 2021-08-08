@@ -51,4 +51,4 @@ def create_model():
     pool2 = AveragePooling2D(pool_size=(2,2))(conv2)
     
     conv3 = Convolution2D(128, 3, 3, border_mode='same', init='he_normal')(pool2)
-    conv3 = Le
+    conv3 = LeakyReLU()
