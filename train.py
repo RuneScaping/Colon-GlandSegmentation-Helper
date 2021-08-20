@@ -53,3 +53,4 @@ def create_model():
     conv3 = Convolution2D(128, 3, 3, border_mode='same', init='he_normal')(pool2)
     conv3 = LeakyReLU()(conv3)
     conv3 = SpatialDropout2D(0.2)(conv3)
+    conv3 =
