@@ -57,4 +57,4 @@ def create_model():
     conv3 = LeakyReLU()(conv3)
     conv3 = SpatialDropout2D(0.2)(conv3)
     
-    com
+    comb1 = merge
