@@ -57,4 +57,5 @@ def create_model():
     conv3 = LeakyReLU()(conv3)
     conv3 = SpatialDropout2D(0.2)(conv3)
     
-    comb1 = merge([conv2, UpSampling2D(size=(2,2))(conv3)], mode='concat', concat_axis
+    comb1 = merge([conv2, UpSampling2D(size=(2,2))(conv3)], mode='concat', concat_axis=1)
+    co
