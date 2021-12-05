@@ -60,4 +60,4 @@ def create_model():
     comb1 = merge([conv2, UpSampling2D(size=(2,2))(conv3)], mode='concat', concat_axis=1)
     conv4 = Convolution2D(64, 3, 3, border_mode='same', init='he_normal')(comb1)
     conv4 = LeakyReLU()(conv4)
-    conv4 = SpatialDropout2
+    conv4 = SpatialDropout2D(0.2)(c
