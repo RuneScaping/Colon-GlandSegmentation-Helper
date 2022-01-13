@@ -62,4 +62,4 @@ def create_model():
     conv4 = LeakyReLU()(conv4)
     conv4 = SpatialDropout2D(0.2)(conv4)
     conv4 = Convolution2D(64, 3, 3, border_mode='same', init='he_normal')(conv4)
-    conv4 =
+    conv4 = LeakyReLU()
