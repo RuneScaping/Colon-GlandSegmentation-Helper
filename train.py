@@ -67,4 +67,4 @@ def create_model():
     
     comb2 = merge([conv1, UpSampling2D(size=(2,2))(conv4)], mode='concat', concat_axis=1)
     conv5 = Convolution2D(32, 3, 3, border_mode='same', init='he_normal')(comb2)
-    conv5 
+    conv5 = Le
