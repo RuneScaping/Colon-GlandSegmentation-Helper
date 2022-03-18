@@ -71,4 +71,4 @@ def create_model():
     conv5 = SpatialDropout2D(0.2)(conv5)
     conv5 = Convolution2D(32, 3, 3, border_mode='same', init='he_normal')(conv5)
     conv5 = LeakyReLU()(conv5)
-    conv5 
+    conv5 = Spatia
