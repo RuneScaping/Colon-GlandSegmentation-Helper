@@ -73,4 +73,4 @@ def create_model():
     conv5 = LeakyReLU()(conv5)
     conv5 = SpatialDropout2D(0.2)(conv5)
     
-    output = Convolution
+    output = Convolution2D(1, 
