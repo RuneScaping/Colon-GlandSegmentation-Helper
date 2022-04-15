@@ -75,4 +75,4 @@ def create_model():
     
     output = Convolution2D(1, 1, 1, activation='sigmoid')(conv5)
 
-    model = Model(input=input, ou
+    model = Model(input=input, output=out
