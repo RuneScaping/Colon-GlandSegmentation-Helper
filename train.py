@@ -76,4 +76,5 @@ def create_model():
     output = Convolution2D(1, 1, 1, activation='sigmoid')(conv5)
 
     model = Model(input=input, output=output)
-    model.compile(optimizer=Adam(lr=3e-4), loss='binary_crossentrop
+    model.compile(optimizer=Adam(lr=3e-4), loss='binary_crossentropy')
+    ret
