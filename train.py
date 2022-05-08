@@ -77,4 +77,7 @@ def create_model():
 
     model = Model(input=input, output=output)
     model.compile(optimizer=Adam(lr=3e-4), loss='binary_crossentropy')
-    return mo
+    return model
+
+
+def
