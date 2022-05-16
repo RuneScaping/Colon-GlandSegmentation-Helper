@@ -80,4 +80,4 @@ def create_model():
     return model
 
 
-def preprocess(
+def preprocess(imgs):
