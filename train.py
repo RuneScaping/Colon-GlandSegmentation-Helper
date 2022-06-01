@@ -81,4 +81,4 @@ def create_model():
 
 
 def preprocess(imgs):
-    im
+    imgs_p =
