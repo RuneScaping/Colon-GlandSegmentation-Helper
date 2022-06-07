@@ -81,4 +81,4 @@ def create_model():
 
 
 def preprocess(imgs):
-    imgs_p = np.ndarray((i
+    imgs_p = np.ndarray((imgs.shap
