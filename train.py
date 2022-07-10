@@ -87,4 +87,4 @@ def preprocess(imgs):
     return imgs_p
 
 
-def
+def train_a
