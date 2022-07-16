@@ -88,4 +88,5 @@ def preprocess(imgs):
 
 
 def train_and_predict():
-    prin
+    print('-'*30)
+    p
