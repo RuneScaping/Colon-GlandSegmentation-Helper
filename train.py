@@ -87,4 +87,5 @@ def preprocess(imgs):
     return imgs_p
 
 
-def train_and_predict(
+def train_and_predict():
+    prin
