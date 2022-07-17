@@ -89,4 +89,4 @@ def preprocess(imgs):
 
 def train_and_predict():
     print('-'*30)
-    print('Loading and preprocessing train d
+    print('Loading and preprocessing train data...')
