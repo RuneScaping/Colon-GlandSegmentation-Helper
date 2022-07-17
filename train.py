@@ -89,4 +89,4 @@ def preprocess(imgs):
 
 def train_and_predict():
     print('-'*30)
-    print('Loa
+    print('Loading 
