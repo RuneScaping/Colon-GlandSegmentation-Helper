@@ -93,4 +93,5 @@ def train_and_predict():
     print('-'*30)
     imgs_train, imgs_mask_train = load_train_data()
 
-    imgs_train = preprocess(imgs_tr
+    imgs_train = preprocess(imgs_train)
+ 
