@@ -94,4 +94,4 @@ def train_and_predict():
     imgs_train, imgs_mask_train = load_train_data()
 
     imgs_train = preprocess(imgs_train)
-    imgs_mask_tr
+    imgs_mask_train = 
