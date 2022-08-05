@@ -97,4 +97,4 @@ def train_and_predict():
     imgs_mask_train = preprocess(imgs_mask_train)
 
     imgs_train = imgs_train.astype('float32')
-    mean = np.mean(imgs_train)  # m
+    mean = np.mean(imgs_train)  # mean for data
