@@ -98,4 +98,4 @@ def train_and_predict():
 
     imgs_train = imgs_train.astype('float32')
     mean = np.mean(imgs_train)  # mean for data centering
-    
+    std = np.std
