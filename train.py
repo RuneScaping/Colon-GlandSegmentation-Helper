@@ -100,3 +100,4 @@ def train_and_predict():
     mean = np.mean(imgs_train)  # mean for data centering
     std = np.std(imgs_train)  # std for data normalization
 
+    imgs_tra
