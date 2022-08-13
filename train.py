@@ -101,4 +101,4 @@ def train_and_predict():
     std = np.std(imgs_train)  # std for data normalization
 
     imgs_train -= mean
-    imgs_t
+    imgs_train /= 
