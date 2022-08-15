@@ -103,4 +103,4 @@ def train_and_predict():
     imgs_train -= mean
     imgs_train /= std
 
-    imgs_mask_train 
+    imgs_mask_train = im
