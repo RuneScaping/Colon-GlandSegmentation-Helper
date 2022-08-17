@@ -104,3 +104,4 @@ def train_and_predict():
     imgs_train /= std
 
     imgs_mask_train = imgs_mask_train.astype('float32')
+    i
