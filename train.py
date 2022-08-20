@@ -104,4 +104,5 @@ def train_and_predict():
     imgs_train /= std
 
     imgs_mask_train = imgs_mask_train.astype('float32')
-    imgs_mask_train /= 255.  # scale mask
+    imgs_mask_train /= 255.  # scale masks to [0, 1]
+
