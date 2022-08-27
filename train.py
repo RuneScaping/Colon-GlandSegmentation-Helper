@@ -108,4 +108,5 @@ def train_and_predict():
 
     print('-'*30)
     print('Creating and compiling model...')
-    print('-'*3
+    print('-'*30)
+    m
