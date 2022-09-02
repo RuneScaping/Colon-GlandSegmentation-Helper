@@ -111,4 +111,5 @@ def train_and_predict():
     print('-'*30)
     model = create_model()
 
-    print('-
+    print('-'*30)
+    p
