@@ -112,4 +112,4 @@ def train_and_predict():
     model = create_model()
 
     print('-'*30)
-    p
+    print('Bui
