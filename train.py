@@ -112,4 +112,5 @@ def train_and_predict():
     model = create_model()
 
     print('-'*30)
-    print('Building data augmentation objec
+    print('Building data augmentation object...')
+    pr
