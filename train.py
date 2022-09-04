@@ -112,4 +112,4 @@ def train_and_predict():
     model = create_model()
 
     print('-'*30)
-    print('Bui
+    print('Building data a
