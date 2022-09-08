@@ -113,4 +113,5 @@ def train_and_predict():
 
     print('-'*30)
     print('Building data augmentation object...')
-    print('-'*30
+    print('-'*30)
+    da
