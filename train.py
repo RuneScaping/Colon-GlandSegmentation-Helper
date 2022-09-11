@@ -115,4 +115,5 @@ def train_and_predict():
     print('Building data augmentation object...')
     print('-'*30)
     datagen = ImageDataGenerator(
-        rotation_range=15
+        rotation_range=15,
+        wi
