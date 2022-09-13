@@ -116,4 +116,4 @@ def train_and_predict():
     print('-'*30)
     datagen = ImageDataGenerator(
         rotation_range=15,
-        wi
+        width_shift_r
