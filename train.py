@@ -121,4 +121,5 @@ def train_and_predict():
         shear_range=0.15,
         horizontal_flip=True,
         vertical_flip=True)
-    
+        
+    to
