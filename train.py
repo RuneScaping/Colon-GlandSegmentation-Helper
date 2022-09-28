@@ -120,4 +120,5 @@ def train_and_predict():
         height_shift_range=0.15,
         shear_range=0.15,
         horizontal_flip=True,
-        vertical_flip=True
+        vertical_flip=True)
+    
