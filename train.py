@@ -123,4 +123,4 @@ def train_and_predict():
         vertical_flip=True)
         
     total = imgs_train.shape[0]
-  
+    img =
