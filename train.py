@@ -124,4 +124,4 @@ def train_and_predict():
         
     total = imgs_train.shape[0]
     img = []
-    c
+    count =
