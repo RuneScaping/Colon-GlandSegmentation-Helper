@@ -125,4 +125,5 @@ def train_and_predict():
     total = imgs_train.shape[0]
     img = []
     count = 0
-    for batch in datagen.flow(imgs_train, batch_size=1, seed=1
+    for batch in datagen.flow(imgs_train, batch_size=1, seed=1337):
+  
