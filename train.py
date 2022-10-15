@@ -129,4 +129,4 @@ def train_and_predict():
         img.append(batch)
         count += 1
         if count > total*stack:
-         
+            break
