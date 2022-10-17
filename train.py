@@ -130,4 +130,4 @@ def train_and_predict():
         count += 1
         if count > total*stack:
             break
-    imgs_train = np.arra
+    imgs_train = np.array(img)[:,
