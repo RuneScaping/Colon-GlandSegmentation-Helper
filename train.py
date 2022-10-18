@@ -132,4 +132,5 @@ def train_and_predict():
             break
     imgs_train = np.array(img)[:,0]
 
-    mas
+    mask = [] 
+ 
