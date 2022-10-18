@@ -133,4 +133,4 @@ def train_and_predict():
     imgs_train = np.array(img)[:,0]
 
     mask = [] 
- 
+    co
