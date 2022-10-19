@@ -134,4 +134,4 @@ def train_and_predict():
 
     mask = [] 
     count = 0
-    for batch in data
+    for batch in datagen.flo
