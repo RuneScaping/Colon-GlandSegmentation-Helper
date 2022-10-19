@@ -134,4 +134,4 @@ def train_and_predict():
 
     mask = [] 
     count = 0
-    for ba
+    for batch in data
