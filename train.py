@@ -136,4 +136,4 @@ def train_and_predict():
     count = 0
     for batch in datagen.flow(imgs_mask_train, batch_size=1, seed=1337): 
         mask.append(batch)
-  
+        count
