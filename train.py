@@ -138,4 +138,4 @@ def train_and_predict():
         mask.append(batch)
         count += 1
         if count > total*stack:
- 
+          
