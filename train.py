@@ -139,4 +139,4 @@ def train_and_predict():
         count += 1
         if count > total*stack:
             break
-    img
+    imgs_mask_t
