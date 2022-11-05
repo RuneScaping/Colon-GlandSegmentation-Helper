@@ -139,4 +139,4 @@ def train_and_predict():
         count += 1
         if count > total*stack:
             break
-    imgs_mask_train 
+    imgs_mask_train = np.arr
