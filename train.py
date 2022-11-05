@@ -140,4 +140,5 @@ def train_and_predict():
         if count > total*stack:
             break
     imgs_mask_train = np.array(mask)[:,0]
-       
+        
+    ca
