@@ -141,4 +141,4 @@ def train_and_predict():
             break
     imgs_mask_train = np.array(mask)[:,0]
         
-    ca
+    callback
