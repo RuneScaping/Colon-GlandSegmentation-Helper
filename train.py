@@ -142,4 +142,4 @@ def train_and_predict():
     imgs_mask_train = np.array(mask)[:,0]
         
     callbacks = [
-        EarlyStop
+        EarlyStopping(monito
