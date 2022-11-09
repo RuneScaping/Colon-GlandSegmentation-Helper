@@ -142,4 +142,4 @@ def train_and_predict():
     imgs_mask_train = np.array(mask)[:,0]
         
     callbacks = [
-        EarlyStopping(monitor='loss', patience=5, v
+        EarlyStopping(monitor='loss', patience=5, verbose
