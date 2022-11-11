@@ -143,4 +143,4 @@ def train_and_predict():
         
     callbacks = [
         EarlyStopping(monitor='loss', patience=5, verbose=0),
-        ModelCh
+        ModelCheckpoint
