@@ -146,4 +146,5 @@ def train_and_predict():
         ModelCheckpoint('weights.hdf5', monitor='loss', save_best_only=True)
     ]
     
-    print('-'*3
+    print('-'*30)
+ 
