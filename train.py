@@ -145,3 +145,5 @@ def train_and_predict():
         EarlyStopping(monitor='loss', patience=5, verbose=0),
         ModelCheckpoint('weights.hdf5', monitor='loss', save_best_only=True)
     ]
+    
+    pr
