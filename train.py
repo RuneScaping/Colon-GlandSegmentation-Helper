@@ -148,3 +148,4 @@ def train_and_predict():
     
     print('-'*30)
     print('Begin training...')
+    print('-'*
