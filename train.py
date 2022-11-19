@@ -147,4 +147,4 @@ def train_and_predict():
     ]
     
     print('-'*30)
-    print('Begin tr
+    print('Begin training...')
