@@ -149,4 +149,4 @@ def train_and_predict():
     print('-'*30)
     print('Begin training...')
     print('-'*30)
-    model.fit(img
+    model.fit(imgs_train, i
