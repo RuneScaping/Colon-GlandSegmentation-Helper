@@ -149,4 +149,4 @@ def train_and_predict():
     print('-'*30)
     print('Begin training...')
     print('-'*30)
-    model.fit(imgs_train, imgs_mask_train, batc
+    model.fit(imgs_train, imgs_mask_train, batch_size
