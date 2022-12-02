@@ -149,4 +149,4 @@ def train_and_predict():
     print('-'*30)
     print('Begin training...')
     print('-'*30)
-    model.fit(imgs_train, imgs_mask_train, batch_size=4, nb_epoch=100, verbose=1, sh
+    model.fit(imgs_train, imgs_mask_train, batch_size=4, nb_epoch=100, verbose=1, shuffle=Tr
