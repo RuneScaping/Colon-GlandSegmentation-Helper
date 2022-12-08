@@ -152,4 +152,5 @@ def train_and_predict():
     model.fit(imgs_train, imgs_mask_train, batch_size=4, nb_epoch=100, verbose=1, shuffle=True,
               callbacks=callbacks)
 
-    print(
+    print('-'*30)
+  
