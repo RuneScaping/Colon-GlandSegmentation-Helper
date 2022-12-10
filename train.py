@@ -153,4 +153,4 @@ def train_and_predict():
               callbacks=callbacks)
 
     print('-'*30)
-    print('Loading and prep
+    print('Loading and preprocessing
