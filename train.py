@@ -156,4 +156,4 @@ def train_and_predict():
     print('Loading and preprocessing test data...')
     print('-'*30)
     imgs_test = load_test_data()
-    imgs_test = prepro
+    imgs_test = preprocess(img
