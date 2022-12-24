@@ -158,4 +158,4 @@ def train_and_predict():
     imgs_test = load_test_data()
     imgs_test = preprocess(imgs_test)
 
-    imgs_test = imgs_test
+    imgs_test = imgs_test.astyp
