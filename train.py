@@ -159,4 +159,5 @@ def train_and_predict():
     imgs_test = preprocess(imgs_test)
 
     imgs_test = imgs_test.astype('float32')
-    imgs_test -=
+    imgs_test -= mean
+ 
