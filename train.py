@@ -160,4 +160,4 @@ def train_and_predict():
 
     imgs_test = imgs_test.astype('float32')
     imgs_test -= mean
- 
+    imgs_test /
