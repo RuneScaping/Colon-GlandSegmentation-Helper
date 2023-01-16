@@ -162,4 +162,4 @@ def train_and_predict():
     imgs_test -= mean
     imgs_test /= std
 
-  
+    print(
