@@ -163,4 +163,5 @@ def train_and_predict():
     imgs_test /= std
 
     print('-'*30)
-    print('Loading saved weights..
+    print('Loading saved weights...')
+    p
