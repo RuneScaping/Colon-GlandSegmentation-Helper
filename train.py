@@ -165,4 +165,4 @@ def train_and_predict():
     print('-'*30)
     print('Loading saved weights...')
     print('-'*30)
-    model.load_w
+    model.load_weights('w
