@@ -165,4 +165,4 @@ def train_and_predict():
     print('-'*30)
     print('Loading saved weights...')
     print('-'*30)
-    model.load_weights('weights
+    model.load_weights('weights.hdf5')
