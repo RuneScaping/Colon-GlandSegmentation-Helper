@@ -167,4 +167,5 @@ def train_and_predict():
     print('-'*30)
     model.load_weights('weights.hdf5')
 
-    print('-
+    print('-'*30)
+    p
