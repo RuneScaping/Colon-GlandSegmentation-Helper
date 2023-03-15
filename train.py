@@ -168,4 +168,4 @@ def train_and_predict():
     model.load_weights('weights.hdf5')
 
     print('-'*30)
-    print('Predicting masks on test da
+    print('Predicting masks on test data...')
