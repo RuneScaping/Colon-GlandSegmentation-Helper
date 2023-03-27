@@ -170,4 +170,4 @@ def train_and_predict():
     print('-'*30)
     print('Predicting masks on test data...')
     print('-'*30)
- 
+    imgs_
