@@ -170,4 +170,5 @@ def train_and_predict():
     print('-'*30)
     print('Predicting masks on test data...')
     print('-'*30)
-    imgs_mask_test = model.predict(imgs_test, verbos
+    imgs_mask_test = model.predict(imgs_test, verbose=1)
+    
