@@ -171,4 +171,4 @@ def train_and_predict():
     print('Predicting masks on test data...')
     print('-'*30)
     imgs_mask_test = model.predict(imgs_test, verbose=1)
-    np.save('imgs_mask
+    np.save('imgs_mask_test.np
