@@ -174,4 +174,5 @@ def train_and_predict():
     np.save('imgs_mask_test.npy', imgs_mask_test)
 
 
-if __name__ == '__ma
+if __name__ == '__main__':
+  
