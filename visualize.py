@@ -10,3 +10,5 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 from submission import prep
+from data import image_cols, image_rows
+
