@@ -12,3 +12,12 @@ import matplotlib.pyplot as plt
 from submission import prep
 from data import image_cols, image_rows
 
+
+def visualize_results():
+    images  = np.load('imgs_test.npy')
+    results = np.load('imgs_mask_test.npy')
+    
+    total = results.shape[0]
+    for i in range(total):
+        image = images[i,0]
+        image = cv2.resize(image, (image_cols, image_rows))
