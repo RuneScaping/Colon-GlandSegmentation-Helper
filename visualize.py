@@ -21,3 +21,9 @@ def visualize_results():
     for i in range(total):
         image = images[i,0]
         image = cv2.resize(image, (image_cols, image_rows))
+        result = results[i,0]
+        result = prep(result)
+        
+        plt.imshow(image, cmap='Greys')
+        plt.imshow(result, alpha=0.30)
+        plt.show()
