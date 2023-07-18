@@ -27,3 +27,7 @@ def visualize_results():
         plt.imshow(image, cmap='Greys')
         plt.imshow(result, alpha=0.30)
         plt.show()
+
+
+if __name__ == '__main__':
+    visualize_results()
